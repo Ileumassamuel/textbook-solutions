@@ -7,7 +7,15 @@ const getDirectories = (source) =>
 
 const getTags = (content) => {
   const lines = content.split('\n').filter(stuff => stuff !== "");
-  const parsedTags = lines.map(line => line.split('-')[1].trim());
+  const parsedTags = lines.flatMap((line, index) => {
+
+    if (index === 0)
+      return [];
+    else {
+      return line.split('-')[1].trim();
+    }
+  });
+
   return parsedTags;
 };
 

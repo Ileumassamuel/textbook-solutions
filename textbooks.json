@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Calculus",
+        "author": "Michael Spivak",
+        "editions": [
+            "4"
+        ],
+        "tags": [
+            "Mathematics"
+        ]
+    },
+    {
+        "title": "Understanding Analysis",
+        "author": "Stephen Abbott",
+        "editions": [
+            "2"
+        ],
+        "tags": [
+            "Mathematics"
+        ]
+    }
+]

@@ -1,0 +1,7 @@
+sections:
+  2:
+    name: Sequences and series
+    subsections:
+      2: The Limit of a Sequence
+      3: The Algebraic and Order Limit Theorems
+      4: The Monotone Convergence Theorem
